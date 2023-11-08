@@ -4,8 +4,8 @@ function myEventFunction() {
   alert('Abel Castilla: This is a test');
 }
  
-var d3 = document.getElementById('entrybutton');
-d3.addEventListener('click', myEventFunction);
+var d = document.getElementById('entrybutton');
+d.addEventListener('click', myEventFunction);
 
 
 
@@ -13,4 +13,4 @@ d3.addEventListener('click', myEventFunction);
 
 
 
-window.addEventListener('load', init);
+window.addEventListener('load', init); };
