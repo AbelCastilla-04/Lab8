@@ -1,7 +1,11 @@
 function init(){
 //add your javascrip between these two lines of code
-document.getElementById("entrybutton").addEventListener("click", function() {
-  alert("Abel Castilla: This is a test"); });
+function myEventFunction() {
+  alert("Abel Castilla: This is a test");
+}
+ 
+var div1 = document.getElementById('entrybutton');
+div1.addEventListener('click', myEventFunction);
 
 
 
