@@ -13,4 +13,4 @@ d.addEventListener('click', myEventFunction);
 
 
 
-window.addEventListener('load', init); };
+window.addEventListener('load', init);
