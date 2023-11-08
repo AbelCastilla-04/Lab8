@@ -2,9 +2,9 @@ function init(){
 //add your javascrip between these two lines of code
 
 function showText(){
-  var texting = document.getElementById('entryinput');
-  document.getElementById('textoutput').innerHTML = texting.value;
-  alert("Abel Castilla: " + texting.value);
+  var textbox = document.getElementById('entryinput');
+  document.getElementById('textoutput').innerHTML = textbox.value;
+  alert("Abel Castilla: " + textbox.value);
 }
 
 var button = document.getElementById('entrybutton');
