@@ -3,7 +3,7 @@ function init(){
 
 function showText(){
   var texting = document.getElementById('entryinput');
-  document.getElementById('textoutput').innerHTML = textbox.value;
+  document.getElementById('textoutput').innerHTML = texting.value;
   alert("Abel Castilla: " + texting.value);
 }
 
